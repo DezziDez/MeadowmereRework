@@ -1,0 +1,19 @@
+body {
+    background-color: #346180;;
+}
+
+nav {
+    z-index: 1000;
+}
+.nav-item {
+    border-radius: 3%;
+    font-weight: bold;
+    background-color: #516640;
+}
+.navbar {
+    background-color: #284B63;
+}
+
+.collapsing {
+    transition: 0.25s;
+}
