@@ -1,0 +1,30 @@
+.bg-color-1{
+    background-color: #141210;
+}
+.bg-color-2{
+    background-color: #1e1a16;
+}       
+.bg-color-3{
+    background-color: #28231c;
+}                
+.surface-color-1,.surface-color-1-hover:hover{
+    color:#f5ede0!important;background-color: #2e2820!important;
+}
+.surface-color-2,.surface-color-2-hover:hover{
+    color:#f5ede0!important;background-color: #38302a!important;
+}       
+.border-color-1{
+    color: #4a3f33;
+}       
+.border-color-2{
+    color: #6b5a4a;
+}
+.text-color-1{
+    color: #e8dcc8;
+}       
+.text-color-2{
+    color: #9e8e7a;
+}
+.text-color-3{
+    color: #f5ede0;
+}
