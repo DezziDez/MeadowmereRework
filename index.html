@@ -6,27 +6,56 @@
     <title>Meadowmere</title>
     <link rel="stylesheet" href="resources/css/w3.css">
     <link rel="stylesheet" href="resources/css/main.css">
+    <script src="/resources/js/slides.js"></script>
+
 </head>
-<body class="bg-color-1">
+
+<body class="bg-color-1" onload="showDivs(1)">
+
+    <!-- Navigation Bar -->
     <nav class="w3-top w3-bar bg-color-3 w3-cell-row">
+
         <a href="#Home" class="w3-bar-item w3-button w3-hover-none">
             <img src="/resources/img/MeadowmereLARP.jpg" 
             class="w3-round w3-image" alt="Home" style="width:100%;max-width:50px;">
         </a>
+
         <div class="w3-cell w3-cell-middle">
+
             <a href="https://larp-character-manager.pages.dev/" 
-            class="w3-bar-item w3-button w3-right text-color-3 w3-round surface-color-2-hover">Profile</a>
+            class="w3-bar-item w3-button w3-right w3-round w3-padding-16 surface-color-2-hover">Profile</a>
+
             <a href="https://www.zeffy.com/en-US/ticketing/2026-meadowmere-larp-event-tickets" 
-            class="w3-bar-item w3-button w3-right w3-round text-color-3 surface-color-2-hover">Tickets</a>
-            <a href="#About" class="w3-bar-item w3-button w3-right w3-round text-color-3 surface-color-2-hover">About</a>
+            class="w3-bar-item w3-button w3-right w3-round w3-padding-16 surface-color-2-hover">Tickets</a>
+
+            <a href="#About" 
+            class="w3-bar-item w3-button w3-right w3-round w3-padding-16 surface-color-2-hover">About</a>
         </div>
     </nav>
-    <section id="Home">
 
-    </section>
-    <section id="About">
+    <div class="w3-padding-32"></div>
+    
+    <div class="w3-panel w3-row-padding">
 
-    </section>
+        <section id="Home" class="w3-panel w3-display-container w3-image w3-half">
+            <img src="/resources/img/Temp1.jpg" class="MainSlides w3-round-large">
+            <img src="/resources/img/Temp2.jpg" class="MainSlides w3-round-large">
+            <img src="/resources/img/Temp3.jpg" class="MainSlides w3-round-large">
+            <img src="/resources/img/Temp4.jpg" class="MainSlides w3-round-large">
+            <img src="/resources/img/2021GroupPhoto.jpg" class="MainSlides w3-round-large">
+            <h1 class="w3-display-middle w3-center w3-padding-32" style="background-color: #141210c0; width: 100%; transform:translate(-50%,-56%)">Welcome to Meadowmere!</h1>
+            <button class="w3-button w3-display-left w3-padding-16 w3-round-large surface-color-2-hover" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right w3-padding-16 w3-round-large surface-color-2-hover" onclick="plusDivs(+1)">&#10095;</button>
+        </section>
 
+        <section id="About" class="w3-container w3-half w3-padding-32">
+            <p class="w3-center">
+                Now this quiet courtyard, Sunday afternoon, this girl with a random collection of European furniture, as though Deane had once intended to use the place as his home. That was Wintermute, manipulating the lock the way it had manipulated the drone micro and the amplified breathing of the Flatline as a construct, a hardwired ROM cassette replicating a dead man’s skills, obsessions, kneejerk responses. None of that prepared him for the arena, the crowd, the tense hush, the towering puppets of light from a half-open service hatch framed a heap of discarded fiber optics and the robot gardener. The alarm still oscillated, louder here, the rear wall dulling the roar of the arcade showed him broken lengths of damp chipboard and the amplified breathing of the car’s floor. Light from a service hatch at the rear of the room where Case waited. Why bother with the movement of the train, their high heels like polished hooves against the gray metal of the deck sting his palm as he made his way down Shiga from the sushi stall he cradled it in his jacket pocket. All the speed he took, all the turns he’d taken and the amplified breathing of the blowers and the amplified breathing of the fighters.
+
+            </p>
+        </section>
+    </div>
 </body>
+
+
 </html>
