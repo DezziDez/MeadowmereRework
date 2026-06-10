@@ -16,8 +16,27 @@
     animation:fading 12s infinite}@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}
 }
 
-#Home {
-    height: 600px; 
-    display: flex; 
+.Carosel {
+    display: flex;
     align-items: center;
+    height: 45vw;
+    min-height: 355px;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.Bullet-List {
+    margin-right: 1%;
+    margin-left: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.Bullet {
+    margin-top: 6%;
+    margin-bottom: 6%;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
